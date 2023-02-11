@@ -68,6 +68,7 @@ public class Pizza {
             }
 
             this.bill+="Total Price: "+this.price;
+            this.isBillGenerated = true;
             return this.bill;
         }
 
